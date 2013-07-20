@@ -12,39 +12,9 @@
         android:id="@+id/imageView1"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_alignLeft="@+id/ImageView01"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="54dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
         android:onClick="silent"
         android:src="@drawable/makesilent" />
-
-    <ImageView
-        android:id="@+id/ImageView01"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="92dp"
-        android:onClick="onsilent"
-        android:src="@drawable/makesilent" />
-
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/imageView1"
-        android:layout_alignParentTop="true"
-        android:layout_alignRight="@+id/imageView1"
-        android:layout_marginTop="42dp"
-        android:text="silent!" />
-
-    <TextView
-        android:id="@+id/TextView01"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/ImageView01"
-        android:layout_alignLeft="@+id/ImageView01"
-        android:layout_alignRight="@+id/ImageView01"
-        android:text="not silent!!" />
 
 </RelativeLayout>
